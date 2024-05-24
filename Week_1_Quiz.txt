@@ -1,0 +1,186 @@
+1.
+Question 1
+Interacting with Large Language Models (LLMs) differs from traditional machine learning models.  Working with LLMs involves natural language input, known as a  _____, resulting in output from the Large Language Model, known as the ______ .
+
+Choose the answer that correctly fill in the blanks.
+
+
+
+prompt, fine-tuned LLM
+
+
+
+tunable request, completion
+
+
+
+PROMPT, COMPLETION
+
+
+
+prediction request, prediction response
+
+
+2.
+Question 2
+Large Language Models (LLMs) are capable of performing multiple tasks supporting a variety of use cases.  Which of the following tasks supports the use case of converting code comments into executable code?
+
+
+
+Information Retrieval
+
+
+
+Text summarization
+
+
+
+TRANSLATION
+
+
+
+Invoke actions from text
+
+
+3.
+Question 3
+What is the self-attention that powers the transformer architecture?
+
+
+
+A measure of how well a model can understand and generate human-like language.
+
+
+
+The ability of the transformer to analyze its own performance and make adjustments accordingly.
+
+
+
+A technique used to improve the generalization capabilities of a model by training it on diverse datasets.
+
+
+
+A MECHANISM THAT ALLOWS A MODEL TO FOCUS ON DIFFERENT PARTS OF THE INPUT SEQUENCE DURING COMPUTATION.
+
+
+4.
+Question 4
+Which of the following stages are part of the generative AI model lifecycle mentioned in the course? (Select all that apply)
+
+
+
+DEPLOYING THE MODEL INTO THE INFRASTRUCTURE AND INTEGRATING IT WITH THE APPLICATION.
+
+
+
+SELECTING A CANDIDATE MODEL AND POTENTIALLY PRE-TRAINING A CUSTOM MODEL.
+
+
+
+DEFINING THE PROBLEM AND IDENTIFYING RELEVANT DATASETS.
+
+
+
+Performing regularization
+
+
+
+MANIPULATING THE MODEL TO ALIGN WITH SPECIFIC PROJECT NEEDS.
+
+
+5.
+Question 5
+"RNNs are better than Transformers for generative AI Tasks." 
+
+Is this true or false?
+
+
+
+True
+
+
+
+FALSE
+
+
+6.
+Question 6
+Which transformer-based model architecture has the objective of guessing a masked token based on the previous sequence of tokens by building bidirectional representations of the input sequence.
+
+
+
+Autoregressive
+
+
+
+AUTOENCODER
+
+
+
+Sequence-to-sequence
+
+
+7.
+Question 7
+Which transformer-based model architecture is well-suited to the task of text translation?
+
+
+
+SEQUENCE-TO-SEQUENCE
+
+
+
+Autoencoder
+
+
+
+Autoregressive
+
+
+8.
+Question 8
+Do we always need to increase the model size to improve its performance?
+
+
+
+True
+
+
+
+FALSE
+
+
+9.
+Question 9
+Scaling laws for pre-training large language models consider several aspects to maximize performance of a model within a set of constraints and available scaling choices.  Select all alternatives that should be considered for scaling when performing model pre-training?
+
+
+
+DATASET SIZE: NUMBER OF TOKENS
+
+
+
+MODEL SIZE: NUMBER OF PARAMETERS
+
+
+
+Batch size: Number of samples per iteration 
+
+
+
+COMPUTE BUDGET: COMPUTE CONSTRAINTS
+
+
+10.
+Question 10
+"You can combine data parallelism with model parallelism to train LLMs."
+
+Is this true or false?
+
+
+
+TRUE
+
+
+
+False
