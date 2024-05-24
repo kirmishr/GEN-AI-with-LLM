@@ -1,0 +1,202 @@
+1.
+Question 1
+Which of the following are true in regards to Constitutional AI? Select all that apply.
+
+
+
+RED TEAMING IS THE PROCESS OF ELICITING UNDESIRABLE RESPONSES BY INTERACTING WITH A MODEL.
+
+
+
+For constitutional AI, it is necessary to provide human feedback to guide the revisions.
+
+
+
+IN CONSTITUTIONAL AI, WE TRAIN A MODEL TO CHOOSE BETWEEN DIFFERENT RESPONSES.
+
+
+
+TO OBTAIN REVISED ANSWERS FOR POSSIBLE HARMFUL PROMPTS, WE NEED TO GO THROUGH A CRITIQUE AND REVISION PROCESS.
+
+
+2.
+Question 2
+What does the "Proximal" in Proximal Policy Optimization refer to?
+
+
+
+The algorithm's ability to handle proximal policies.
+
+
+
+The algorithm's proximity to the optimal policy
+
+
+
+The use of a proximal gradient descent algorithm
+
+
+
+THE CONSTRAINT THAT LIMITS THE DISTANCE BETWEEN THE NEW AND OLD POLICY
+
+
+3.
+Question 3
+"You can use an algorithm other than Proximal Policy Optimization to update the model weights during RLHF."
+
+Is this true or false?
+
+
+
+TRUE
+
+
+
+False
+
+
+4.
+Question 4
+In reinforcement learning, particularly with the Proximal Policy Optimization (PPO) algorithm, what is the role of KL-Divergence? Select all that apply.
+
+
+
+KL DIVERGENCE MEASURES THE DIFFERENCE BETWEEN TWO PROBABILITY DISTRIBUTIONS.
+
+
+
+KL DIVERGENCE IS USED TO ENFORCE A CONSTRAINT THAT LIMITS THE EXTENT OF LLM WEIGHT UPDATES.
+
+
+
+KL divergence is used to train the reward model by scoring the difference of the new completions from the original human-labeled ones.
+
+
+
+KL divergence encourages large updates to the LLM weights to increase differences from the original model.
+
+
+5.
+Question 5
+Fill in the blanks: When fine-tuning a large language model with human feedback, the action that the agent (in this case the LLM) carries out is ________ and the action space is the _________.
+
+
+
+Generating the next token, the context window
+
+
+
+Calculating the probability distribution, the LLM model weights.
+
+
+
+GENERATING THE NEXT TOKEN, VOCABULARY OF ALL TOKENS.
+
+
+
+Processing the prompt, context window.
+
+
+6.
+Question 6
+How does Retrieval Augmented Generation (RAG) enhance generation-based models?
+
+
+
+By applying reinforcement learning techniques to augment completions. 
+
+
+
+By optimizing model architecture to generate factual completions.
+
+
+
+By increasing the training data size.
+
+
+
+BY MAKING EXTERNAL KNOWLEDGE AVAILABLE TO THE MODEL
+
+
+7.
+Question 7
+How can incorporating information retrieval techniques improve your LLM application? Select all that apply.
+
+
+
+IMPROVE RELEVANCE AND ACCURACY OF RESPONSES
+
+
+
+OVERCOME KNOWLEDGE CUT-OFFS
+
+
+
+Reduced memory footprint for the model
+
+
+
+Faster training speed when compared to traditional models
+
+
+8.
+Question 8
+What are correct definitions of Program-aided Language (PAL) models? Select all that apply.
+
+
+
+MODELS THAT OFFLOAD COMPUTATIONAL TASKS TO OTHER PROGRAMS.
+
+
+
+Models that assist programmers in writing code through natural language interfaces.
+
+
+
+Models that enable automatic translation of programming languages to human languages.
+
+
+
+MODELS THAT INTEGRATE LANGUAGE TRANSLATION AND CODING FUNCTIONALITIES.
+
+
+9.
+Question 9
+Which of the following best describes the primary focus of ReAct?
+
+
+
+Investigating reasoning abilities in LLMs through chain-of-thought prompting.
+
+
+
+Studying the separate topics of reasoning and acting in LLMs.
+
+
+
+ENHANCING LANGUAGE UNDERSTANDING AND DECISION MAKING IN LLMS.
+
+
+
+Exploring action plan generation in LLMs.
+
+
+10.
+Question 10
+What is the main purpose of the LangChain framework?
+
+
+
+TO CHAIN TOGETHER DIFFERENT COMPONENTS AND CREATE ADVANCED USE CASES AROUND LLMS, SUCH AS CHATBOTS, GENERATIVE QUESTION-ANSWERING (GQA), AND SUMMARIZATION.
+
+
+
+To connect with external APIs and datasets and offload computational tasks.
+
+
+
+To evaluate the LLM's completions and provide fast prototyping and deployment capabilities.
+
+
+
+To provide prompt templates, agents, and memory components for working with LLMs.
